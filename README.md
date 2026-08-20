@@ -14,6 +14,7 @@ sandboxes, driven over HTTP.
 | Mission Control | engineers | [mission.inevitable.fyi](https://mission.inevitable.fyi) |
 | Watchtower | infrastructure | [watchtower.inevitable.fyi](https://watchtower.inevitable.fyi) |
 | Mend | infrastructure | [mend.inevitable.fyi](https://mend.inevitable.fyi) |
+| Rounds | infrastructure | [rounds.inevitable.fyi](https://rounds.inevitable.fyi) |
 | DNS Desk | infrastructure | [github.com/jhgaylor/dns-desk](https://github.com/jhgaylor/dns-desk) |
 | Arena | AI engineers | [arena.inevitable.fyi](https://arena.inevitable.fyi) |
 
