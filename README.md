@@ -13,6 +13,7 @@ sandboxes, driven over HTTP.
 | Repo Sage | engineers | [reposage.inevitable.fyi](https://reposage.inevitable.fyi) |
 | Mission Control | engineers | [mission.inevitable.fyi](https://mission.inevitable.fyi) |
 | Watchtower | infrastructure | [watchtower.inevitable.fyi](https://watchtower.inevitable.fyi) |
+| Mend | infrastructure | [mend.inevitable.fyi](https://mend.inevitable.fyi) |
 | DNS Desk | infrastructure | [github.com/jhgaylor/dns-desk](https://github.com/jhgaylor/dns-desk) |
 | Arena | AI engineers | [arena.inevitable.fyi](https://arena.inevitable.fyi) |
 
