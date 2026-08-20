@@ -1,0 +1,38 @@
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: fountain-demos
+  namespace: fountain-demos
+  labels:
+    app: fountain-demos
+spec:
+  entryPoints:
+    - websecure
+  routes:
+    - match: "Host(`demos.inevitable.fyi`)"
+      kind: Rule
+      services:
+        - name: fountain-demos
+          port: 80
+  tls:
+    secretName: fountain-demos-tls
+---
+apiVersion: traefik.io/v1alpha1
+kind: IngressRoute
+metadata:
+  name: fountain-demos-http
+  namespace: fountain-demos
+  labels:
+    app: fountain-demos
+spec:
+  entryPoints:
+    - web
+  routes:
+    - match: "Host(`demos.inevitable.fyi`)"
+      kind: Rule
+      middlewares:
+        - name: redirect-https
+          namespace: default
+      services:
+        - name: fountain-demos
+          port: 80
